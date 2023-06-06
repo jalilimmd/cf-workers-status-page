@@ -11,7 +11,7 @@ command = "npm run build"
 #webpack_config = "node_modules/flareact/webpack"
 
 #[triggers]
-#crons = ["* * * * *"]
+#crons = ["*/2 * * * *"]
 
 [site]
 bucket = "out"
